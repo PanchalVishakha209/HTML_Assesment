@@ -1,0 +1,617 @@
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+
+
+.header{
+    height: 30px;
+    width: 100%;
+    background:#2a2a2a;
+    color: white;
+    justify-content: space-between;
+}
+
+i{
+    color: white;
+}
+
+.navbar{
+    height: 70px;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    line-height: 70px;
+    
+    
+}
+
+.title{
+   
+    color: white;
+   font-weight: 600;
+    font-size: 30px;
+}
+
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+    font-weight: 600;
+    color: white;
+   
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./Images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px  500px ;
+    padding: 70px 100px;
+    color: white;
+   
+}
+
+.btn{
+    height: 40px;
+    border-radius: 22px;
+    background: #a12c2f;
+    padding: 0px 25px;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.hello{
+    margin: 15px 0px;
+}
+
+.welcome{
+    margin: 15px 0px;
+}
+
+.para{
+    margin: 15px 0px;
+}
+
+.content2{
+    height: 1250px;
+    background: url(/Images/meetings-bg.jpg);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.c1{
+    height: 270px;
+    width: 340px;
+    background: url(/Images/service-item-bg.jpg);
+    border-radius: 22px;
+    margin: 0px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 10px;
+    position: absolute;
+    top: 70%;
+    left: 9%;
+}
+
+.c2{
+    height: 270px;
+    width: 340px;
+    background: url(/Images/service-item-bg.jpg);
+    border-radius: 22px;
+    margin: 0px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 10px;
+    position: absolute;
+    top: 70%;
+    left: 36%;
+}
+
+.c3{
+    height: 270px;
+    width: 340px;
+    background: url(/Images/service-item-bg.jpg);
+    border-radius: 22px;
+    margin: 0px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px 10px;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+}
+
+.head{
+    margin: 20px 0px;
+}
+
+.p{
+    font-size: 13px;
+}
+
+.um{
+    height: 900px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 250px 100px;
+}
+
+.umhead{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 27px;
+}
+
+.umcontent{
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.con1{
+    height: 400px;
+    width: 300px;
+    background: white;
+    border-radius: 22px;
+    padding: 40px 40px;
+    margin-right: 30px;
+}
+
+.list{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 20px 0px;
+}
+
+.list li{
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.btn1{
+    height: 40px;
+    border-radius: 22px;
+    background: #a12c2f;
+    padding: 0px 25px;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.con2{
+    height: 330px;
+    width: 350px;
+    background: white;
+    border-radius: 22px;
+    margin: 0px 30px;
+    background-attachment: fixed;
+}
+
+.con2 .img{
+    height: 60%;
+    background: url(/Images/meeting-01.jpg);
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px ;
+    padding: 20px 20px;
+
+}
+
+ .price{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background: whitesmoke;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+   
+}
+
+.text{
+    padding: 20px 20px;
+    display: flex;
+}
+
+.text .month{
+    color: #a12c2f;
+}
+
+.text .num{
+    padding: 10px 7px;
+}
+
+.text .c{
+    margin: 0px 10px;
+}
+
+.c p{
+    margin: 15px 0px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.con3{
+    height: 380px;
+    width: 350px;
+    background: white;
+    border-radius: 22px;
+    background-attachment: fixed;
+}
+
+.con3 .img{
+    height: 50%;
+    background: url(/Images/meeting-02.jpg);
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px ;
+    padding: 20px 20px;
+
+}
+
+ 
+
+.con4{
+    height: 380px;
+    width: 350px;
+    background: white;
+    border-radius: 22px;
+    margin-left: 370px;
+    
+}
+
+.con4 .img{
+    height: 50%;
+    background: url(/Images/meeting-03.jpg);
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px ;
+    padding: 20px 20px;
+
+}
+
+
+.text1{
+    padding: 20px 20px;
+   /* display: block; */
+}
+
+.text1 .month{
+    color: #a12c2f;
+}
+
+.text1 .num{
+    padding: 10px 7px;
+}
+
+.text1 .c{
+    margin: 0px 10px;
+}
+
+
+.con5{
+    height: 330px;
+    width: 350px;
+    background: white;
+    border-radius: 22px;
+    background-attachment: fixed;
+    margin-left: 20px;
+}
+
+.con5 .img{
+    height: 57%;
+    background: url(/Images/meeting-04.jpg);
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px ;
+    padding: 20px 20px;
+
+}
+
+ 
+
+.text2{
+    padding: 20px 20px;
+    display: flex;
+}
+
+.text2 .month{
+    color: #a12c2f;
+}
+
+.text2 .num{
+    padding: 10px 7px;
+}
+
+.text2 .c{
+    margin: 0px 10px;
+}
+
+.background{
+    height: 900px;
+    background: url(/Images/apply-bg.jpg);
+     background-attachment: fixed;
+     padding: 100px 100px;
+     display: flex;
+} 
+
+.background .t1{
+    height: 280px;
+    width: 550px;
+    background: rgba(250,250,250,0.15);
+    margin: 20px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    
+}
+
+.t1 .head1{
+    margin: 20px 20px;
+}
+
+.t1 .para{
+    margin: 20px 20px;
+    line-height: 25px;
+}
+
+
+.btn2{
+    height: 40px;
+    border-radius: 22px;
+    background: #a12c2f;
+    padding: 0px 25px;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+
+.btn3{
+    height: 40px;
+    border-radius: 22px;
+    background:#f5a425;
+    padding: 0px 25px;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.form{
+    height: 700px;
+    width: 500px;
+    background: white;
+    border-radius: 22px;
+    margin-left: 50px;
+}
+
+.content4{
+ height: 700px;
+ background: url(/Images/meetings-bg.jpg);
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 100px 120px;
+ 
+}
+
+.c4head{
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+}
+
+.imgpart{
+    display: flex;
+}
+
+.i1{
+    height: 330px;
+    width: 270px;
+    background: white;
+    margin-right: 30px;
+    margin-top: 50px;
+    
+}
+
+.i1 .img{
+    height: 40%;
+}
+
+.i1 .t1{
+    color: #2a2a2a;
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.i1 .star{
+    color: #a12c2f;
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
+.form{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.background{
+    height: 800px;
+    background: url(/Images/facts-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.background .uni{
+    width: 60%;
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.ubac{
+    display: flex;
+
+}
+
+.ubac .bg2{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.uni h1{
+    margin-bottom: 60px;
+}
+
+.uni .sucess{
+    height: 150px;
+    width: 270px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(250,250,250,0.15);
+    margin-top: 30px;
+    
+}
+
+.sucess .num{
+    color: #f5a425; 
+    font-size: 40px; 
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.background .video{ 
+    width: 40%; 
+    padding-top: 80px;
+    position: relative;
+}
+
+.video .vimg{
+    height: 350px;
+    border-radius: 10%;
+}
+
+.vimg .vi{
+    border-radius: 5%;
+}
+
+.video .vlogo{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+}
+
+.footer{
+    height: 850px;
+    background:url(/Images/meetings-bg.jpg);
+    background-attachment: fixed;
+}
+
+.footer .footercontent{
+    height: 700px;
+    display: flex;
+    padding: 110px 110px;
+    
+}
+
+.footercontent .footerform{
+    width: 70%;
+    background: white;
+    border-radius: 5%;
+    margin: 20px 0px;
+    padding: 40px 30px;
+}
+
+.footerform h2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title input{
+   margin-right: 30px;
+   background:#f7f7f7;
+   color: #7a7a7a;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 10px;
+   width: 300px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.message textarea{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background:#f7f7f7;
+    color: #7a7a7a;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 700px;
+    height: 150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+.fform .title{
+    display: flex;
+    padding-top: 30px;
+    
+}
+
+
+
+.footercontent .details{
+    width: 25%;
+    background: #a12c2f;
+    border-radius: 5%;
+    margin-left: 30px;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details li{
+    list-style: none;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 25px 0px;
+}
+ .details  span{
+    display: inline-block;
+    margin-top: 10px;
+ }
+
+.footer .finalfooter{
+    height: 150px;
+    border-top: 1px solid gainsboro;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
